@@ -39,17 +39,3 @@ def turn(board)
     turn(board)
   end
 end
-
-
-=begin
-def turn(board)
-  puts "Please enter 1-9:"
-  index = gets.strip.to_i - 1
-  if board[index] == valid_move(board, index)
-    return move(board, index, value)
-
-  if board[index] != valid_move(board, index)
-    puts "This is not a valid move. Try again."
-
-  end
-=end
